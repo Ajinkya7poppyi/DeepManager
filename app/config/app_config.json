@@ -1,0 +1,38 @@
+{
+    "GLOBAL": {
+        "port": 10000,
+        "secret_key": "09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7",
+        "algorithm": "HS256",
+        "token_exiry": 30,
+        "Database": {
+            "db_name": "test",
+            "db_url": "mongodb://mongodb",
+            "db_port": 27017,
+            "db_username": "admin",
+            "db_password": "password"
+        }
+    },
+    "DEV": {
+        "port": 10000,
+        "secret_key": "09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7",
+        "algorithm": "HS256",
+        "Database": {
+            "db_name": "test",
+            "db_url": "mongodb://mongodb",
+            "db_port": 27017,
+            "db_username": "admin",
+            "db_password": "password"
+        }
+    },
+    "PROD": {
+        "port": 10000,
+        "secret_key": "09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7",
+        "algorithm": "HS256",
+        "Database": {
+            "db_url": "https://localhost",
+            "db_port": 2500,
+            "db_username": "admin",
+            "db_password": "password"
+        }
+    }
+}
